@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        python 'Python3' // Ensure this is configured in Jenkins
+        python 'python3' // Ensure this is configured in Jenkins
     }
 
     environment {
